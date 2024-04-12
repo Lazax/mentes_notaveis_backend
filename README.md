@@ -15,11 +15,11 @@
 
 Clonar repositorio
 
-    git clone <repositorio>
+    git clone https://github.com/Lazax/mentes_notaveis_backend.git
 
 Mudar para o diretorio do projeto
 
-    cd <nome_projeto>
+    cd mentes_notaveis_backend
 
 Instalar dependencias usando o Composer
 
