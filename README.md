@@ -29,6 +29,10 @@ Copiar arquivos .env e realizar as configurações do banco de dados
 
     cp .env.example .env
 
+Gerar o application key
+
+    php artisan key:generate
+
 Rodar o migrations pra criar as tabelas
 
     php artisan migrate
