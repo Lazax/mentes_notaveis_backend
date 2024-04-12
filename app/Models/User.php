@@ -10,4 +10,9 @@ class User extends Model
 
     protected $fillable = ['name', 'email'];
     protected $hidden = ['created_at', 'updated_at', 'remember_token'];
+
+    public function address()
+    {
+        return $this->hasOne(Address::class);
+    }
 }
